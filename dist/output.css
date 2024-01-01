@@ -590,6 +590,11 @@ video {
   z-index: 50;
 }
 
+.mx-\[-12px\]{
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -600,39 +605,16 @@ video {
   margin-bottom: 6px;
 }
 
-.mx-0{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-.mx-\[\]{
-  margin-left: ;
-  margin-right: ;
-}
-
-.mx-\[-12px\]{
-  margin-left: -12px;
-  margin-right: -12px;
-}
-
 .mt-\[20px\]{
   margin-top: 20px;
 }
 
-.mt-\[60px\]{
-  margin-top: 60px;
-}
-
-.mt-\[90px\]{
-  margin-top: 90px;
-}
-
-.mt-\[\]{
-  margin-top: ;
-}
-
 .mt-\[40px\]{
   margin-top: 40px;
+}
+
+.mt-\[60px\]{
+  margin-top: 60px;
 }
 
 .block{
@@ -669,26 +651,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-\[499px\]{
-  width: 499px;
-}
-
-.w-\[\]{
-  width: ;
-}
-
-.w-\[1\]{
-  width: 1;
-}
-
-.w-\[172\]{
-  width: 172;
-}
-
-.w-\[172px\]{
-  width: 172px;
 }
 
 .max-w-\[140px\]{
@@ -854,11 +816,6 @@ video {
   padding-bottom: 12px;
 }
 
-.py-\[130px\]{
-  padding-top: 130px;
-  padding-bottom: 130px;
-}
-
 .py-\[14px\]{
   padding-top: 14px;
   padding-bottom: 14px;
@@ -869,39 +826,14 @@ video {
   padding-bottom: 15px;
 }
 
-.py-\[70px\]{
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
-.py-\[90px\]{
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-
-.py-\[\]{
-  padding-top: ;
-  padding-bottom: ;
-}
-
-.py-\[30\]{
-  padding-top: 30;
-  padding-bottom: 30;
-}
-
 .py-\[30px\]{
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.py-\[10px\]{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.py-\[0px\]{
-  padding-top: 0px;
-  padding-bottom: 0px;
+.py-\[70px\]{
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .pb-\[20px\]{
@@ -928,6 +860,10 @@ video {
   padding-top: 18px;
 }
 
+.pt-\[30px\]{
+  padding-top: 30px;
+}
+
 .pt-\[35px\]{
   padding-top: 35px;
 }
@@ -936,32 +872,12 @@ video {
   padding-top: 42px;
 }
 
-.pt-\[60px\]{
-  padding-top: 60px;
-}
-
 .pt-\[70px\]{
   padding-top: 70px;
 }
 
 .pt-\[90px\]{
   padding-top: 90px;
-}
-
-.pt-\[\]{
-  padding-top: ;
-}
-
-.pt-\[30px\]{
-  padding-top: 30px;
-}
-
-.pt-\[50px\]{
-  padding-top: 50px;
-}
-
-.pt-\[0px\]{
-  padding-top: 0px;
 }
 
 .text-center{
@@ -974,10 +890,6 @@ video {
 
 .font-roboto{
   font-family: Roboto, sans-serif;
-}
-
-.font-\[\]{
-  font-family: ;
 }
 
 .text-\[13px\]{
@@ -1012,32 +924,32 @@ video {
   font-size: 26px;
 }
 
-.text-\[45px\]{
-  font-size: 45px;
-}
-
-.text-\[75px\]{
-  font-size: 75px;
-}
-
-.text-\[60px\]{
-  font-size: 60px;
-}
-
-.text-\[3px\]{
-  font-size: 3px;
+.text-\[35px\]{
+  font-size: 35px;
 }
 
 .text-\[38px\]{
   font-size: 38px;
 }
 
-.text-\[35px\]{
-  font-size: 35px;
+.text-\[45px\]{
+  font-size: 45px;
+}
+
+.font-\[275\]{
+  font-weight: 275;
+}
+
+.font-\[400\]{
+  font-weight: 400;
 }
 
 .font-\[500\]{
   font-weight: 500;
+}
+
+.font-\[600\]{
+  font-weight: 600;
 }
 
 .font-bold{
@@ -1053,18 +965,6 @@ video {
 }
 
 .font-semibold{
-  font-weight: 600;
-}
-
-.font-\[275\]{
-  font-weight: 275;
-}
-
-.font-\[400\]{
-  font-weight: 400;
-}
-
-.font-\[600\]{
   font-weight: 600;
 }
 
@@ -1092,20 +992,21 @@ video {
   line-height: 30.1px;
 }
 
-.leading-\[33\.9px\]{
-  line-height: 33.9px;
-}
-
-.leading-\[\]{
-  line-height: ;
-}
-
 .leading-\[30px\]{
   line-height: 30px;
 }
 
+.leading-\[33\.9px\]{
+  line-height: 33.9px;
+}
+
 .tracking-\[-1\.5px\]{
   letter-spacing: -1.5px;
+}
+
+.text-\[\#1E71FF\]{
+  --tw-text-opacity: 1;
+  color: rgb(30 113 255 / var(--tw-text-opacity));
 }
 
 .text-\[\#2B353E\]{
@@ -1128,19 +1029,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\]{
-  color: ;
-}
-
-.text-\[\#1E71FF\]{
-  --tw-text-opacity: 1;
-  color: rgb(30 113 255 / var(--tw-text-opacity));
-}
-
-.text-\[px\]{
-  color: px;
-}
-
 .duration-300{
   transition-duration: 300ms;
 }
@@ -1161,6 +1049,70 @@ video {
   transform: translateY(-7px) rotate(-45deg);
 }
 
+.after\:absolute::after{
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:bottom-0::after{
+  content: var(--tw-content);
+  bottom: 0px;
+}
+
+.after\:left-0::after{
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.after\:h-\[2px\]::after{
+  content: var(--tw-content);
+  height: 2px;
+}
+
+.after\:w-0::after{
+  content: var(--tw-content);
+  width: 0px;
+}
+
+.after\:bg-white::after{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.after\:bg-\[\]::after{
+  content: var(--tw-content);
+  background-color: ;
+}
+
+.after\:bg-\[\#6B7278\]::after{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 120 / var(--tw-bg-opacity));
+}
+
+.after\:transition-all::after{
+  content: var(--tw-content);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.after\:ease-linear::after{
+  content: var(--tw-content);
+  transition-timing-function: linear;
+}
+
+.after\:ease-out::after{
+  content: var(--tw-content);
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.after\:ease-in::after{
+  content: var(--tw-content);
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
 .hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1169,6 +1121,11 @@ video {
 .hover\:text-\[\#1E71FF\]:hover{
   --tw-text-opacity: 1;
   color: rgb(30 113 255 / var(--tw-text-opacity));
+}
+
+.after\:hover\:w-full:hover::after{
+  content: var(--tw-content);
+  width: 100%;
 }
 
 @media not all and (min-width: 768px){
@@ -1206,47 +1163,21 @@ video {
   }
 }
 
-@media not all and (min-width: 640px){
-  .max-sm\:text-\[38px\]{
-    font-size: 38px;
-  }
-
-  .max-sm\:text-\[48px\]{
-    font-size: 48px;
-  }
-
-  .max-sm\:text-\[\]{
-    color: ;
-  }
-
-  .max-sm\:text-\[3\]{
-    color: 3;
-  }
-}
-
 @media (min-width: 640px){
   .sm\:mt-\[90px\]{
     margin-top: 90px;
-  }
-
-  .sm\:flex-row{
-    flex-direction: row;
   }
 
   .sm\:pt-\[60px\]{
     padding-top: 60px;
   }
 
-  .sm\:text-\[75px\]{
-    font-size: 75px;
-  }
-
   .sm\:text-\[45px\]{
     font-size: 45px;
   }
 
-  .sm\:\*\:text-\[45px\] > *{
-    font-size: 45px;
+  .sm\:text-\[75px\]{
+    font-size: 75px;
   }
 }
 
